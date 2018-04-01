@@ -71,7 +71,7 @@ main img {
 .side-item {
   display: flex;
   align-items: center;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #d8e6f3;
 }
 .side-item picture {
   width: 35%;
@@ -159,6 +159,9 @@ main img {
 #information {
   background-color:#d8e6f3;
 }
+#information .side-item {
+  background-color: #ffffff;
+}
 #information .text {
   display: flex;
   flex-direction: column;
@@ -206,11 +209,9 @@ main img {
     padding-right: 0;
     padding-left: 1rem;
   }
-
 }
 
 /* Courses */
-
 .courses-container {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
@@ -272,9 +273,6 @@ main img {
 
 #thesis h3 {
   padding: 1.5rem 0 .5rem 0;
-}
-#thesis .side-item {
-  border: 1px solid #d8e6f3;
 }
 #thesis .side-item:hover {
   background-color: #d8e6f3;
